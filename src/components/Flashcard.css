@@ -1,0 +1,9 @@
+.container {
+    width: 640px;
+    height: 480px;
+    background-color: #CCC;
+}
+
+.hidden {
+    display: none;
+}
