@@ -11,6 +11,7 @@ const Flashcard = (props) => {
 
         question.classList.toggle("hidden");
         answer.classList.toggle("hidden");
+        // image.classList.toggle("hidden");
     }
 
     const handlePrevious = () => {
@@ -18,8 +19,14 @@ const Flashcard = (props) => {
     }
 
     const handleNext = () => {
-        const randomCard = getRandomInt(props.cardSet.length - 1);
+        const randomCard = getRandomInt(props.cardSet.length);
         setIndex({...index, previous: index.current, current: randomCard });
+        
+        const question = document.getElementById("question");
+        const answer = document.getElementById("answer");
+
+        question.classList.remove("hidden");
+        answer.classList.add("hidden");
     }
 
     const getRandomInt = (max) => {
@@ -29,13 +36,25 @@ const Flashcard = (props) => {
 
     return (
         <>
-        <div className="container" onClick ={handleToggle}>
-            <div className="question" id="question">{props.cardSet[index.current].question}</div>
+        <div className={"container " + props.cardSet[index.current].difficulty} onClick ={handleToggle}>
+            <img className="image" id="image" src={props.cardSet[index.current].image}></img>
+            <img src={props.cardSet[index.current].footprint} className="footprint"></img>
+            
+            <div className="details">
+                <div className="height">{props.cardSet[index.current].height}</div>
+                <div className="weight">{props.cardSet[index.current].weight}</div>
+            </div>
+            <div className="question" id="question">???</div>
             <div className="answer hidden" id="answer">{props.cardSet[index.current].answer}</div>
+            
+           
+         
+
+            <div className="entry-description" id="entry-description">{props.cardSet[index.current].description}</div>
         </div>
 
-        <button className="previous" onClick={handlePrevious}> &#x2190; </button>
-        <button className="next" onClick={handleNext}> &#x2192;</button>
+        <img src='../src/assets/PokeBall_Left.gif' className="previous" onClick={handlePrevious}></img>
+        <img src='../src/assets/GreatBall_Right.gif' className="next" onClick={handleNext}></img> 
         </>
     )
 }

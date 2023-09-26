@@ -1,3 +1,17 @@
+@font-face {
+  font-family: Pokemon-Solid;
+  src: url('../src/fonts/Pokemon Solid.ttf');
+}
+
+@font-face {
+  font-family: Pokemon-Hollow;
+  src: url('../src/fonts/Pokemon Hollow.ttf');
+}
+
+@font-face {
+  font-family: Pokemon-GB;
+  src: url('../src/fonts/Pokemon GB.ttf');
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -29,7 +43,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background: url('https://lofi-landing.nyc3.cdn.digitaloceanspaces.com/craft-your-productive-environment/slideshow/lofi-cafe/day.jpg');
+  background: url('https://ssb.wiki.gallery/images/thumb/7/73/SSBU-Pok%C3%A9mon_Stadium_2.png/1200px-SSBU-Pok%C3%A9mon_Stadium_2.png');
+  background-size: cover;
+  font-family: Pokemon-Hollow;
 }
 
 h1 {
@@ -67,4 +83,12 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
 }

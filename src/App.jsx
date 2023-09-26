@@ -1,28 +1,17 @@
-
-import './App.css';
+import PokemonDict from "./pokemonDict";
 import Flashcard from './components/Flashcard.jsx'; 
+import './App.css';
 
 function App() {
 
-  const dict = [
-    {question: "Hello There?", answer: "There" },
-    {Question: "", Answer: "" },
-    {Question: "", Answer: "" },
-    {Question: "", Answer: "" },
-    {Question: "", Answer: "" },
-    {Question: "", Answer: "" },
-    {Question: "", Answer: "" },
-    {Question: "", Answer: "" },
-    {Question: "", Answer: "" },
-    {Question: "", Answer: "" }
-  ];
+
 
   return (
     <div className="App">
-      <h1>title</h1>
-      <p className="description">dsdf</p>
-      <p className="cardCount">Number of cards: {dict.length}</p>
-      <Flashcard cardSet={dict} />
+      <h1>Guess That Pokemon</h1>
+      <p className="description">Can You Guess and "Catch" Them All?</p>
+      <p className="cardCount">Number of Cards: {PokemonDict.length}</p>
+      <Flashcard cardSet={PokemonDict} />
     
     </div>
   )
