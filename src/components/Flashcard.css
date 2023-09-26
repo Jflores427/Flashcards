@@ -1,14 +1,13 @@
 .pokedex{
-    background: url("../src/assets/Kalos_Pokedex.jpg") no-repeat;
-    /* transform: scale(0.953, 0.75); */
-    border: 1px solid transparent;
-    border-radius: 40px;
-    background-size: 500px 750px;
     width:500px;
-    height: 750px;  
+    height: 750px; 
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    background: url("../src/assets/Kalos_Pokedex.jpg") no-repeat;
+    background-size: 500px 750px;
+    border: 1px solid transparent;
+    border-radius: 40px;
     transform: translateX(10px);
     
 }
@@ -81,9 +80,8 @@
 }
 
 .entry-description { /* 487 x 89 */
-    width: 487px;
+    width: 480px;
     height: 89px;
-    font-size: 12px;
     position: relative;
     top: 2.5%;
     left: 3.5%;
@@ -91,8 +89,10 @@
     font-family: Pokemon-GB;
     font-size: 13px;
     text-align: left;
+    line-height: 16px;
     cursor:default;
     user-select: none;
+
 }
 
 .hidden {

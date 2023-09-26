@@ -19,7 +19,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background: url('https://ssb.wiki.gallery/images/thumb/7/73/SSBU-Pok%C3%A9mon_Stadium_2.png/1200px-SSBU-Pok%C3%A9mon_Stadium_2.png');
+  background: url('../src/assets/SSBU-Pokémon_Stadium_2.webp');
   background-size: cover;
   font-family: Pokemon-Hollow, Arial, Helvetica, sans-serif;
 }
