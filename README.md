@@ -2,7 +2,7 @@
 
 Submitted by: **Josue Flores**
 
-This web app: **A Guess that Pokemon Flashcard Web App relating to Pokemon within the Pokedex of the franchise*
+This web app: *A Guess that Pokemon Flashcard Web App relating to Pokemon within the Pokedex of the franchise*
 
 Time spent: **11** hours spent in total
 
