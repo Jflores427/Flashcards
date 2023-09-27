@@ -43,23 +43,23 @@ const Flashcard = (props) => {
     return (
     <div> 
         <div className='pokedex'>
-            {/* <img className="pokedex" src="../src/assets/Kalos_Pokedex.jpg"></img>                         */}
-            <div className={"container " + props.cardSet[index.current].difficulty} onClick ={handleToggle}>
-            <img className="image" src={props.cardSet[index.current].image}></img>
-            <img className="footprint" src={props.cardSet[index.current].footprint}></img>
-            <div className="details">
-                <div className="height">{props.cardSet[index.current].height}</div>
-                <div className="weight">{props.cardSet[index.current].weight}</div>
-            </div>
-            <div className="question" id="question">???</div>
-            <div className="answer hidden" id="answer">{props.cardSet[index.current].answer}</div>
-            <div className="entry-description" id="entry-description">{props.cardSet[index.current].description}</div>
-            </div>
+                    <div className={"container " + props.cardSet[index.current].difficulty} onClick ={handleToggle}>
+                        <img className="image" src={props.cardSet[index.current].image}></img>
+                        <img className="footprint" src={props.cardSet[index.current].footprint}></img>
+                        <div className="details">
+                            <div className="height">{props.cardSet[index.current].height}</div>
+                            <div className="weight">{props.cardSet[index.current].weight}</div>
+                        </div>
+                        <div className="question" id="question">???</div>
+                        <div className="answer hidden" id="answer">{props.cardSet[index.current].answer}</div>
+                        <div className="entry-description" id="entry-description">{props.cardSet[index.current].description}</div>
+                    </div>
+
 
             <img src='../src/assets/PokeBall_Left.gif' className="previous" onClick={handlePrevious}></img>
             <img src='../src/assets/GreatBall_Right.gif' className="next" onClick={handleNext}></img> 
-            </div>
         </div>
+    </div>
     )
 }
 
