@@ -4,7 +4,7 @@ Submitted by: **Josue Flores**
 
 This web app: *A Guess that Pokemon Flashcard Web App relating to Pokemon within the Pokedex of the franchise*
 
-Time spent: **11** hours spent in total
+Time spent: **14** hours spent in total
 
 ## Required Features
 
@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [X] Added a Horizontal Flip feature to the Flashcard upon click
 
 ## Video Walkthrough
 
@@ -32,7 +32,7 @@ Here's a walkthrough of implemented required features:
 
 <img src='./public/Pokemon-Flashcards.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> 
 
-<!-- imgur link: https://imgur.com/a/YkRs2vG  --> 
+<!-- imgur link: https://imgur.com/a/rTdDVdY  --> 
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif  
@@ -47,6 +47,7 @@ Describe any challenges encountered while building the app.
 
 * The CSS formatting of the elements, particularly aligning nested elements to certain locations in their container.
 * Discovering the appropriate templates to serve as the background images for the container classes.
+* Implementing the Horizontal Flip for the Flashcard as an onClick feature.
 
 ## License
 
