@@ -45,16 +45,16 @@ h1 {
   font-size: 2rem;
   line-height: 0.7;
   color: white;
-  margin: 10px;
+  margin: 0px;
 }
 
 p {
   color: white;
-  margin: 0px 0 5px 0;
+  margin: 5px 0 -11px 0;
 }
 
-.card-count {
- margin: -10px 0 10px 0;
+.current-streak {
+  margin: 0 0 5px 0;
 }
 
 
