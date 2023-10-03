@@ -161,9 +161,10 @@ function App() {
   return (
     <div className="App">
       <h1>Guess That Pokemon</h1>
-      <p className="description">Can You Guess and "Catch" Them All?</p>
+      <p className="description">Can You Guess and Catch Them All?</p>
       <p className="card-count">Uncaught Pokemon: {PokemonDict.length}, Caught Pokemon: {mastered.length}</p>
       <p className="current-streak"> Current Streak: {streak.current}, Longest Streak: {streak.longest} </p>
+      <hr class='horizontal-line'></hr>
       <Flashcard 
       cardSet={cardSet} 
       streakIncrement={streakIncrement} 

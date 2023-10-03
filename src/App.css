@@ -48,15 +48,24 @@ h1 {
   margin: 0px;
   position: relative;
   top: -20px;
+  left: -20px;
 }
 
 p {
   color: white;
-  margin: -10px 0 -11px 0;
+  margin: 0px 0 10px 0;
+  position: relative;
+  left: -20px;
 }
 
 .current-streak {
   margin: 0 0 5px 0;
+}
+
+.horizontal-line {
+  width: 105%;
+  position: relative;
+  right: 30px;
 }
 
 

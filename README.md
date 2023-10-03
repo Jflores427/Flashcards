@@ -32,7 +32,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='./public/Pokemon-Flashcards-2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- imgur link: https://imgur.com/a/QiBdgFK  --> 
+<!-- imgur link: https://imgur.com/a/CG6DK3d --> 
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif
@@ -107,7 +107,7 @@ GIF created with ScreenToGif
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
-
+<!-- 
 ## Notes
 
 Describe any challenges encountered while building the app.
@@ -130,4 +130,4 @@ Describe any challenges encountered while building the app.
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
-    limitations under the License. -->
+    limitations under the License. --> -->
