@@ -1,10 +1,10 @@
-# Web Development Project 3 - *Name of App Here*
+# Web Development Project 3 - *Pokemon Flashcards*
 
-Submitted by: **Your Name Here**
+Submitted by: **Josue Flores**
 
-This web app: **insert description**
+This web app: **A Guess that Pokemon Flashcard Web App relating to Pokemon within the Pokedex of the franchise**
 
-Time spent: **X** hours spent in total
+Time spent: **24** hours spent in total
 
 ## Required Features
 
@@ -21,10 +21,6 @@ The following **optional** features are implemented:
 - [X] A user's answer may be counted as correct even when it is slightly different from the target answer
 - [X] A counter displays the user's current and longest streak of correct responses
 - [X] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
-
-The following **additional** features are implemented:
-
-* [X] The Flashcard cannot be flipped over until an answer is entered.
 
 ## Video Walkthrough
 
@@ -101,13 +97,7 @@ Here's a walkthrough of implemented required features:
 
 <!-- imgur link: https://imgur.com/a/rTdDVdY  --> 
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ScreenToGif  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
-
+<!-- 
 ## Notes
 
 Describe any challenges encountered while building the app.
@@ -130,4 +120,6 @@ Describe any challenges encountered while building the app.
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
-    limitations under the License. -->
+    limitations under the License. --> 
+    -->
+
