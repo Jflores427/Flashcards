@@ -46,11 +46,13 @@ h1 {
   line-height: 0.7;
   color: white;
   margin: 0px;
+  position: relative;
+  top: -20px;
 }
 
 p {
   color: white;
-  margin: 5px 0 -11px 0;
+  margin: -10px 0 -11px 0;
 }
 
 .current-streak {

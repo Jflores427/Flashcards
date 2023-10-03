@@ -62,9 +62,10 @@
 
 .footprint {
     position: relative;
-    top: 14%;
-    left: 11.5%;
+    top: 14.5%;
+    left: 11.25%;
     transform: scale(2.5);
+    width: 20px;
     user-select: none;
 }
 
